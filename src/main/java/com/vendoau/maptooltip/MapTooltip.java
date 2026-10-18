@@ -1,10 +1,12 @@
 package com.vendoau.maptooltip;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import com.mojang.blaze3d.vertex.Tesselator;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GameRenderer;
+//? < 1.20 {
+/*import com.mojang.blaze3d.vertex.Tesselator;
 import net.minecraft.client.renderer.MultiBufferSource;
+*///? }
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.saveddata.maps.MapItemSavedData;
 

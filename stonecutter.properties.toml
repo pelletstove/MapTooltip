@@ -4,8 +4,12 @@ mod.id="maptooltip"
 mod.name="Map Tooltip"
 mod.description="View maps from your inventory"
 
-deps.fabric_loader="0.18.4"
+deps.fabric_loader="0.19.5"
 
+
+["26.2-fabric"]
+deps.fabric_api="0.161.0+26.2"
+mod.mc_dep=">=26.2 <26.3"
 
 ["26.1-fabric"]
 deps.fabric_api="0.144.0+26.1"
